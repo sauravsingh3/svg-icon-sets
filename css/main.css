@@ -84,3 +84,42 @@ p {
   margin: 0;
   font-size: .9rem;
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6vmin;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 1.1rem;
+  }
+
+  h3 {
+    text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h2 {
+    padding: 1.6rem;
+  }
+
+}
