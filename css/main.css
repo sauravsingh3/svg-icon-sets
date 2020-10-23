@@ -43,3 +43,44 @@ a:hover,
 a:focus {
   color: rgba(255, 255, 255, .7);
 }
+
+.icon {
+  height: 7rem;
+  width: 7rem;
+  margin-top: 1rem;
+}
+
+.icon svg {
+  height: 100%;
+  width: 100%;
+  fill: currentColor;
+}
+
+#bubbles, #domes, #stilts {
+  fill: #ff9500;
+}
+
+.btn {
+  text-align: center;
+  padding: .9rem;
+
+  background-color: transparent;
+  border: 3px solid #fff;
+  vertical-align: middle;
+
+  color: #fff;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  padding: 6vmin;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  font-size: .9rem;
+}
